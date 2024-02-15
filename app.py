@@ -1,7 +1,6 @@
 import streamlit as st 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 st.title(" Survey of Lung Cancer")
 st.write("Please fill out the folloeing survey to help us gather information about lung cancer")
 #survey questions
