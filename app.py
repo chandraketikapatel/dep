@@ -17,13 +17,13 @@ if st.button("submit"):
     survey_data=pd.DataFrame({"Age":[age],"Gender":[gender],"Smoking Status":[smoking_status],"Years Smoked":[years_somked],
                               "symptom Duration":[symptom_duration]}) 
     
-    import streamlit as st
+    #import streamlit as st
     st.divider()
-    import pandas as pd
+    #import pandas as pd
     df=pd.read_csv("C:\\Users\\Admin\\Desktop\\Dashboard\\survey lung cancer.csv")
     df
     st.write("Graphs of survey lung cancer")
-    import matplotlib.pyplot as plt
+    #import matplotlib.pyplot as plt
     st.bar_chart(df)
     st.line_chart(df)
     st.scatter_chart(df)
